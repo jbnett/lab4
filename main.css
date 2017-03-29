@@ -1,0 +1,78 @@
+/*Johnny Burnette - Assignment 4*/
+
+body{
+   background-color: lightcyan; 
+}
+header{
+  font-size: 1.2em;
+  padding: .5em;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 92%;
+  text-align: center;
+  color: #728E9C;
+  font-family: sans-serif;
+  font-weight: 600; 
+}
+main{
+  width: 90%;
+  padding-top: .5em;
+  padding-left: 1em;  
+  margin: 0 auto;/*Center element inside body tag*/
+  background-color: lightgoldenrodyellow;
+  border-radius: 2%;/*Rounded corners*/  
+}
+.a1{/*Top left section*/
+  width: 15%;
+  float: left;
+}
+.a2{/*Top middle section*/
+  width: 25%;
+  float: left; 
+}
+.a3{/*Top right section*/ 
+  float: left;  
+}
+.a4{/*Middle left section*/
+  width: 25%;
+  float: left; 
+}
+.a5{/*Middle right section*/
+  float: left;    
+}
+.a6{/*Bottom left section*/
+  width: 15%;
+  float: left; 
+}
+.a7{/*Bottom middle section*/
+  width: 25%;
+  float: left;
+}
+.a8{/*Bottom right section*/
+  float: left;  
+}
+.clr{/*Clear floats*/
+  clear: both; 
+}
+.fontplus{
+    font-size: 2.1em;
+    font-weight: bolder;
+}
+h4{
+   margin: 0;/*No vertival element spacing*/
+}
+p{
+  margin: 0;/*No vertival element spacing*/
+}
+ul{
+  list-style: none;  
+}
+footer{
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: .7em;
+  color: #728E9C; 
+  padding: 1em; 
+}
